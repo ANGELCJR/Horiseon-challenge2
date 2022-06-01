@@ -7,14 +7,14 @@
 
 /* apply color to body page */
 body {
-    background-color: #d9dcd6;
+    background-color: #2589bd;
 }
 
  /* apply styles to <header> */
 .header {
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #2589bd;
     color: #ffffff;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #dddddd;
 }
 
 .header div {
@@ -93,7 +93,7 @@ p {
     font-size: 20px;
     padding: 20px;
     margin-bottom: 2px;
-    color:darkorange;
+    color:rgb(255, 255, 255);
 }
 
 .content p {
@@ -106,6 +106,8 @@ p {
     margin-bottom: 200px;
     padding: 100px;
     height: 300px;
+    position: relative;
+    right: 430px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -114,6 +116,9 @@ p {
 .online-reputation-management {
     margin-bottom: 20px;
     height: 300px;
+    position: relative;
+    bottom: 160px;
+    right: 430px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -121,6 +126,9 @@ p {
 
 .social-media-marketing {
     height: 300px;
+    position: relative;
+    right: 430px;
+    bottom: 160px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -156,16 +164,16 @@ p {
 
 /* apply styles to Benefits */
 .benefits {
-    margin-right: -455px;
+    margin-right: 800px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    top: -835px;
+    bottom: 1120px;
     position: relative;
     height: 800%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #0072bb;
 }
 
 .benefit-lead {
@@ -220,10 +228,14 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 
 .footer h2 {
     font-size: 20px;
+    color: black;
+    
 }
