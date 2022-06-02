@@ -1,16 +1,14 @@
-/* apply global styles to page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* apply color to body page */
+
 body {
     background-color: #2589bd;
 }
 
- /* apply styles to <header> */
 .header {
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,8 +50,6 @@ a {
 p {
     font-size: 16px;
 }
-
-/* Hero Style*/
 .hero {
     height: 1000px;
     width: 100%;
@@ -82,7 +78,6 @@ p {
     text-align: right;
   }
 
-/* apply styles to Contents */
 .content {
     width: 75%;
     display: inline-block;
@@ -223,8 +218,6 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* apply styles to <footer> */
 .footer {
     padding: 30px;
     clear: both;
@@ -233,7 +226,6 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   
 }
-
 .footer h2 {
     font-size: 20px;
     color: black;
